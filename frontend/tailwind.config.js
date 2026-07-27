@@ -1,0 +1,47 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        surface: "#f8f9fa",
+        "surface-dim": "#d9dadb",
+        "surface-bright": "#f8f9fa",
+        "surface-container-lowest": "#ffffff",
+        "surface-container-low": "#f3f4f5",
+        "surface-container": "#edeeef",
+        "surface-container-high": "#e7e8e9",
+        "surface-container-highest": "#e1e3e4",
+        "on-surface": "#191c1d",
+        "on-surface-variant": "#44474d",
+        outline: "#75777e",
+        "outline-variant": "#c5c6ce",
+        primary: "#031632",
+        "on-primary": "#ffffff",
+        "primary-container": "#1a2b48",
+        "on-primary-container": "#8293b5",
+        "primary-fixed": "#d7e2ff",
+        "primary-fixed-dim": "#b6c7eb",
+        secondary: "#735c00",
+        "on-secondary": "#ffffff",
+        "secondary-container": "#fed65b",
+        "on-secondary-container": "#745c00",
+        error: "#ba1a1a",
+        "on-error": "#ffffff",
+        "error-container": "#ffdad6",
+        "on-error-container": "#93000a",
+        success: "#1e6b3c",
+      },
+      borderRadius: {
+        DEFAULT: "0.25rem",
+        lg: "0.5rem",
+        xl: "0.75rem",
+      },
+      fontFamily: {
+        sans: ["Inter", "system-ui", "sans-serif"],
+      },
+    },
+  },
+  plugins: [],
+};

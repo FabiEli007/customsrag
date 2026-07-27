@@ -1,0 +1,10 @@
+frontend/
+data/raw/
+tests/
+.git/
+.pytest_cache/
+**/__pycache__/
+**/*.pyc
+.venv/
+*.zip
+README.md

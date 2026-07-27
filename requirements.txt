@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+anthropic
+rank_bm25
+pydantic
+langdetect
+pytest

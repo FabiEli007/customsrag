@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-surface-bright text-on-surface antialiased;
+  }
+}
+
+@layer utilities {
+  .font-tabular {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Le composant "gauge" de confiance (score BM25) - inspire des
+   "Confidence Indicators" du DESIGN.md, en jauge lineaire simple plutot
+   qu'un cadran, plus adapte a une liste compacte de sources. */
+.confidence-track {
+  background: #e1e3e4;
+}
+.confidence-fill {
+  background: #fed65b;
+}
