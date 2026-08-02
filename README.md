@@ -4,8 +4,6 @@
 
 Un assistant conversationnel qui répond aux questions sur le Code des Douanes et le Tarif des Douanes de Madagascar, en citant systématiquement l'article de loi ou le code SH exact utilisé — en français, en anglais ou en malgache.
 
-Projet réalisé pour démontrer les compétences LLM / RAG / industrialisation demandées pour un poste de **Data Scientist IA Junior** (SGS Madagascar).
-
 ---
 
 ## Pourquoi ce projet
