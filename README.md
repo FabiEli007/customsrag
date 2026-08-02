@@ -12,7 +12,6 @@ Le Code des Douanes et le Tarif des Douanes malgaches totalisent plus de 390 pag
 
 ## Aperçu
 
-> *(ajouter ici une capture d'écran ou un GIF de démo — `docs/screenshot.png`)*
 
 **Exemple de question :** *"Quel est le taux de droit de douane pour le fromage ?"*
 **Réponse :** citation directe du code SH 0406.10 00 (Tarif des Douanes) avec les taux DD/TVA/DD APEi, sourcée et affichée dans le "Registre des sources".
